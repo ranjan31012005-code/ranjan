@@ -1,11 +1,10 @@
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>RANJAN K.K — AI / ML Developer &amp; Creative Technologist</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300..600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;family=Inter:wght@300..600&amp;family=DM+Serif+Display:ital@0;1&amp;display=swap" rel="stylesheet">
 <style>
   :root{
     --black-0:#000000; --black-1:#050505; --black-2:#080808; --black-3:#0d0d0d; --black-4:#111111; --black-5:#151515;
@@ -321,10 +320,10 @@
 
 <div id="bg"></div>
 <div id="noise"></div>
-<div id="cursor-dot"></div>
-<div id="cursor-ring"></div>
+<div id="cursor-dot" style="left: 1024px; top: 538px;"></div>
+<div id="cursor-ring" style="left: 1024px; top: 538px;"></div>
 
-<div id="intro">
+<div id="intro" class="hide">
   <div class="intro-line"></div>
   <div class="intro-name">RANJAN&nbsp;&nbsp;K.K</div>
   <button class="skip-intro" id="skipIntro">Skip</button>
@@ -510,7 +509,7 @@
         <div class="ring" style="width:260px;height:260px;"></div>
         <div class="ring" style="width:400px;height:400px;"></div>
         <div class="ring" style="width:520px;height:520px;"></div>
-      </div>
+      <div class="node-pt" style="left: 73.4923%; top: 58.5505%;">Music</div><div class="node-pt" style="left: 45.6588%; top: 74.6202%;">Movies</div><div class="node-pt" style="left: 26.5077%; top: 41.4495%;">History</div><div class="node-pt" style="left: 54.3412%; top: 25.3798%;">Space</div><div class="node-pt" style="left: 69.2308%; top: 83.3087%;">Quantum Physics</div><div class="node-pt" style="left: 16.6913%; top: 69.2308%;">Time Travel</div><div class="node-pt" style="left: 30.7692%; top: 16.6913%;">Drawing</div><div class="node-pt" style="left: 83.3087%; top: 30.7692%;">Photography</div><div class="node-pt" style="left: 99.2404%; top: 58.6824%;">Travel</div><div class="node-pt" style="left: 25%; top: 93.3013%;">Chess</div><div class="node-pt" style="left: 11.6978%; top: 17.8606%;">Cricket</div></div>
       <div class="interests-fallback reveal">
         <span class="node"><i></i>Music</span><span class="node"><i></i>Movies</span><span class="node"><i></i>History</span>
         <span class="node"><i></i>Space</span><span class="node"><i></i>Quantum Physics</span><span class="node"><i></i>Time Travel Concepts</span>
@@ -728,5 +727,5 @@ document.getElementById('resumeBtn').addEventListener('click', (e)=>{
   alert('Add a link to your hosted resume PDF here, or wire this button to download it directly.');
 });
 </script>
-</body>
-</html>
+
+</body></html>
